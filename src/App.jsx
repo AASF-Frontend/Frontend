@@ -7,8 +7,10 @@ import {
 } from 'react-router-dom';
 import Home from './Screens/Home';
 
+
 function App() {
   return (
+    
     <Router>
       <Routes>
       <Route exact path='/' element={<Home />} />
