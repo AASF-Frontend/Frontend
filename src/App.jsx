@@ -7,15 +7,19 @@ import {
 } from 'react-router-dom';
 import Home from './Screens/Home';
 import Navbar from './Components/Navbar'
+import Autoplay_slider from './Components/Autoplay_slider';
 
 
 function App() {
   return (
 
    <div>
+
      <div>
       <Navbar></Navbar>
     </div>
+
+    <Autoplay_slider></Autoplay_slider>
 
     <Routes>
       <Route path='/' ></Route>
