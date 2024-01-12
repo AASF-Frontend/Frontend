@@ -1,0 +1,110 @@
+.navbarImages {
+    animation-name: animation1;
+    animation-duration: 42s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 400px;
+}
+
+@media screen and (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+
+    }
+    .navbarImages{
+    height: 900px;
+    }
+}
+
+@keyframes animation1 {
+
+    0% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+
+    10% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+
+    20% {background-image: url('../Images/pexels-david-besh-884788.jpg');}
+
+    30% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+
+    30% {background-image: url('../Images/2richard-tao-kEzo7ZXhYSk-unsplash.jpg');}
+
+    40% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+
+    50% {background-image: url('../Images/mehdi-messrro-yef79KkAguA-unsplash.jpg');}
+
+    60% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+
+    70% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+
+    80% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+
+    90% {background-image: url('../Images/mehdi-messrro-yef79KkAguA-unsplash.jpg');}
+
+    100% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+}
+
+.glow-on-hover {
+    width: 90px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 1; /* Set initial opacity to 1 */
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
