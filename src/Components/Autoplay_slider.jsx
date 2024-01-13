@@ -4,7 +4,7 @@ import './Autoplay_slider.css'
 export default function Autoplay_slider() {
   return (
     <div class="slider-container">
-        <div class="slider">
+        {/* <div class="slider">
             
                   <img src={require('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg')} />
                   <img src={ require('../Images/2richard-tao-kEzo7ZXhYSk-unsplash.jpg') } />
@@ -14,7 +14,7 @@ export default function Autoplay_slider() {
                   <img src={ require('../Images/pexels-photomix-company-96627.jpg') } />
 
                    
-        </div>
+        </div> */}
     </div>
   )
 }

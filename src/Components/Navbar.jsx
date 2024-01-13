@@ -8,31 +8,31 @@ export default function Navbar() {
 
         <div className=" " >  
 
-            <div className="navbar  flex flex-wrap justify-evenly items-center w-full gap-20 fixed top-0 text-[20px]  " >
+            <div className="navbar flex flex-wrap justify-evenly items-center w-full gap-20 fixed top-0 text-[20px]  " >
 
                 <div className="h-[50px] w-[50px] m-4  " >
                     <NavLink to='/'><img src={clubLogo} className="w-full h-full" ></img></NavLink>
                 </div>
-                <div className="m-4 hover:scale-[1.2] glow-on-hover text-center " >
+                <div className="m-4 hover:scale-[1.2] hover:text-yellow-300 text-center " >
                     <NavLink to='/'>Home</NavLink>
                 </div>
-                <div className="m-4  glow-on-hover text-center">
+                <div className="m-4 hover:scale-[1.2] hover:text-yellow-300  text-center">
                     <NavLink to='/About'>About</NavLink>
                 </div>
-                <div className="m-4  glow-on-hover text-center">
+                <div className="m-4  hover:scale-[1.2] hover:text-yellow-300 text-center">
                     <NavLink to='/Quiz'>Quiz</NavLink>
                 </div>
-                <div className="m-4  glow-on-hover text-center">
+                <div className="m-4 hover:scale-[1.2] hover:text-yellow-300  text-center">
                     <NavLink to='/Games'>Games</NavLink>
                 </div>
 
-                <div className="m-4 button-container flex gap-4 text-center py-[2px] px-3 rounded-2xl ">
+                <div className="m-4 button-container flex border border-black rounded-3xl p-[7px] text-[16px] bg-[#FFFF00] px-6 text-center  rounded-2xl ">
 
                     <NavLink to='/LogIn'>
-                        <button className="flip-button animation" >LogIn</button>
+                        <button className="flip-button animation border-r-2 px-1.5 border-black" >LogIn</button>
                     </NavLink>
                     <NavLink to='/SignUp'>
-                        <button className="flip-button animation" >SignUp</button>
+                        <button className="flip-button animation px-1.5" >SignUp</button>
                     </NavLink>
                 </div>
             </div>
