@@ -3,7 +3,7 @@
     animation-duration: 42s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');
+    /* background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg'); */
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
@@ -14,6 +14,7 @@
 @media screen and (max-width: 650px) {
     .navbar {
         flex-direction: column;
+        position: absolute;
 
     }
     .navbarImages{
@@ -23,27 +24,27 @@
 
 @keyframes animation1 {
 
-    0% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+    0% {background-image: url('../Images/image1.jpg');}
 
-    10% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+    10% {background-image: url('../Images/image2.jpg');}
 
-    20% {background-image: url('../Images/pexels-david-besh-884788.jpg');}
+    20% {background-image: url('../Images/image1.jpg');}
 
-    30% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+    30% {background-image: url('../Images/image3.jpg');}
 
-    30% {background-image: url('../Images/2richard-tao-kEzo7ZXhYSk-unsplash.jpg');}
+    30% {background-image: url('../Images/image4.jpg');}
 
-    40% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+    40% {background-image: url('../Images/image5.jpg');}
 
-    50% {background-image: url('../Images/mehdi-messrro-yef79KkAguA-unsplash.jpg');}
+    50% {background-image: url('../Images/image1.jpg');}
 
-    60% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+    60% {background-image: url('../Images/image2.jpg');}
 
-    70% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+    70% {background-image: url('../Images/image3.jpg');}
 
-    80% {background-image: url('../Images/pexels-photomix-company-96627.jpg');}
+    80% {background-image: url('../Images/image4.jpg');}
 
-    90% {background-image: url('../Images/mehdi-messrro-yef79KkAguA-unsplash.jpg');}
+    90% {background-image: url('../Images/image5.jpg');}
 
-    100% {background-image: url('../Images/1francesco-califano-kAC8c1Sq58Y-unsplash.jpg');}
+    100% {background-image: url('../Images/image1.jpg');}
 }
