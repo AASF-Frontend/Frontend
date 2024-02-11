@@ -1,3 +1,5 @@
+import './'
+
 export default function Footer (){
 
     return ( 

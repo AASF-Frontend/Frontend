@@ -9,8 +9,8 @@ export default function Autoplay_slider() {
       <div id="homepage-slider" className="st-slider previous-section "  >
 
         <div className='flex items-center gap-[45px] justify-start  ' >
-          <div className='text-[40px] text-left text-gray-600' >Previous</div>
-          <div className='h-[1px] bg-gray-400 p-2  w-[500px]  ' ></div>
+          <div className='  text-[40px] text-left text-gray-600' >Previous</div>
+          <div className=' h-1 w-[543px] bg-black ' ></div>
         </div>
 
         {/* <input type="radio" class="cs_anchor radio" name="slider" id="slide1" /> */}

@@ -8,6 +8,7 @@ import {
 import Home from './Screens/Home';
 import Navbar from './Components/Navbar'
 import Autoplay_slider from './Components/Autoplay_slider';
+import Gallerysection from './Components/Gallerysection';
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <Navbar></Navbar>
     </div>
 
-    <Autoplay_slider></Autoplay_slider>
+    <Autoplay_slider/>
+
+    <Gallerysection/>
 
     <Routes>
       <Route path='/' ></Route>
