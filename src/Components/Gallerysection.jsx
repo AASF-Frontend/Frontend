@@ -67,16 +67,14 @@ function Slideshow() {
 export default function Gallerysection() {
     return (
 
-        <div className='bg-slate-600 my-[150px] py-8 pb-20' >
+        <div className=' gallerySection bg-slate-600 my-[150px] py-8 pb-20 ' >
 
             <div className=' max-w-[1300px] w-auto m-auto mt-[120px] flex items-start justify-between ' >
                 <div className="galleryText text-[180px] " >
                     GALLERY
                 </div>
                 <div >
-                    <div >
-                        <Slideshow />
-                    </div>
+                    <Slideshow />
                 </div>
             </div>
         </div>

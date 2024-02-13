@@ -60,7 +60,7 @@
 #slide3:checked ~ div .fake-radio .radio-btn:nth-child(3) {
   background: red;
 }
-.radio-btn {
+/* .radio-btn {
   width: 9px;
   height: 9px;
   border-radius: 5px;
@@ -68,7 +68,7 @@
   display: inline-block !important;
   margin: 0 1px;
   cursor: pointer;
-}
+} */
 /* Color of bullets - END */
 
 
@@ -173,3 +173,20 @@
 /* Calculate AUTOPLAY for CAPTION - END */
 
 
+@media screen and (max-width: 1000px) {
+  .previous_Upcoming_section{
+   flex-direction: column;
+ }
+ .previous-section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .images{
+  width: auto;
+ }
+
+}

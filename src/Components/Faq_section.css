@@ -120,3 +120,56 @@ body {
     font-weight: 400;
     margin: 2em 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .imagesAndQuestions{
+     display: flex;
+     flex-direction: column;
+   }
+   .faqHeading{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 23px;
+   }
+   /* .accordion{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-left: 20px; */
+    /* padding-right: 10px; */
+    /* } */
+    
+   /* .accordion-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+   } */
+   .QueAndButton{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+   }
+   .accordion-title{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+   }
+   .accordion .icon {
+    top: 38px;
+    right: -10px;
+    width: 22px;
+    height: 22px;
+   }
+   .answers{
+    font-size: 13px;
+    padding-left: 80px;
+    padding-right: 50px;
+    margin-bottom: 15px;
+   }
+}

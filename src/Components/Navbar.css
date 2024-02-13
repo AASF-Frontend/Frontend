@@ -11,7 +11,7 @@
     height: 400px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
     .navbar {
         flex-direction: column;
         position: absolute;
@@ -48,3 +48,4 @@
 
     100% {background-image: url('../Images/image1.jpg');}
 }
+
