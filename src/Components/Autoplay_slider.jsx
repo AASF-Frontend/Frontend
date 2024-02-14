@@ -3,14 +3,14 @@ import './Autoplay_slider.css';
 export default function Autoplay_slider() {
   return (
 
-    <div className=' max-w-[1300px] w-auto m-auto mt-10 flex ' >
+    <div className='previous_Upcoming_section max-w-[1300px] w-auto m-auto mt-10 flex ' >
 
 
       <div id="homepage-slider" className="st-slider previous-section "  >
 
-        <div className='flex items-center gap-[45px] justify-start  ' >
+        <div className='flex items-center  justify-between   ' >
           <div className='  text-[40px] text-left text-gray-600' >Previous</div>
-          <div className=' h-1 w-[543px] bg-black ' ></div>
+          {/* <div className=' h-[2px] w-[400px] max-w-[543px] bg-black mr-[200px] ' ></div> */}
         </div>
 
         {/* <input type="radio" class="cs_anchor radio" name="slider" id="slide1" /> */}
@@ -39,9 +39,9 @@ export default function Autoplay_slider() {
         </div>
 
         <div class="labels">
-          <label for="slide1" class="label">text slide 1</label>
-          <label for="slide2" class="label">text slide 2</label>
-          <label for="slide3" class="label">text slide 3</label>
+          <label for="slide1" class="label"></label>
+          <label for="slide2" class="label"></label>
+          <label for="slide3" class="label">t</label>
 
           <div class="fake-radio">
             <label for="slide1" class="radio-btn"></label>
@@ -54,8 +54,8 @@ export default function Autoplay_slider() {
       <div className=' upcoming-section flex-col ' >
         
         <div className='flex justify-center items-center gap-8 ' >
-          <div className='  text-[40px]  text-gray-600' >Upcoming</div>
-          <div className=' h-1 w-[200px] bg-black ' ></div>
+          <div className='  text-[40px]  text-gray-600 w-[400px] flex justify-center' >Upcoming</div>
+          {/* <div className=' h-1 w-[60px] bg-black ' ></div> */}
         </div>
         {/* IMAGE 1 */}
         <div className=" py-6 h-[300px] overflow-y-scroll flex-col ">

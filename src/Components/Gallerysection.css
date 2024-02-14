@@ -44,3 +44,28 @@
     background-color: #6a0dad;
   }
   
+  @media screen and (max-width: 1000px) {
+    .gallerySection{
+      display: flex;
+     flex-direction: column;
+     padding-right: 28px;
+     height: 650px;
+     margin-bottom: 0%;
+     margin-top: 80px;
+   }
+   .slide{
+    height: 300px;
+    width: 100%;
+    
+
+   }
+   .galleryText{
+    
+    font-size: 82px;
+    
+   }
+   .slideshow{
+    height: auto;
+   }
+   
+  }

@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     left: 30%;
     -webkit-animation: myfirst 22s linear infinite;
-    animation: myfirst 22s linear infinite;
+    animation: myfirst 12s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 38%;
     position: absolute;
     -webkit-animation: myfirst 30s linear infinite;
-    animation: myfirst 30s linear infinite;
+    animation: myfirst 18s linear infinite;
 }
 
 
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     left: -25%;
   }
   100% {
-    left: 100%;
+    left: 80%;
   }
 }
 
@@ -189,15 +189,38 @@ h1, h2, h3, h4, h5, h6 {
     left: -25%;
   }
   100% {
-    left: 100%;
+    left: 80%;
   }
 }
 
 @keyframes myfirst {
   0% {
-    left: -25%;
+    left: -75%;
   }
   100% {
     left: 100%;
   }
+}
+
+@media screen and (max-width: 1000px) {
+    .footerSection{
+        width: auto;
+    }
+    .clubNameText{
+     font-size: 40px;
+   }
+   .homeAndicons{
+    display: flex;
+    flex-direction: column;
+   }
+   .new_footer_top .footer_bg {
+    top: 0%;
+    bottom: 0%;
+   }
+   .new_footer_top{
+    padding: 0px 0px 270px;
+   }
+   .icons {
+    size: 20px;
+   }
 }
